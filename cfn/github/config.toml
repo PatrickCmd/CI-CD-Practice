@@ -1,0 +1,9 @@
+[deploy]
+bucket = 'cicd-cfn-artifacts-cmd-1001'
+region = 'us-east-1'
+stack_name = 'CFNCICDPractice'
+
+[parameters]
+GithubRepo = 'CI-CD-Practice'
+GithubUsername = 'PatrickCmd'
+ProjectName = 'aws-cfn-github-cicd-practice'
