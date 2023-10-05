@@ -8,3 +8,4 @@ phases:
     commands:
       - echo $WEBSITE_BUCKET_NAME
       - aws s3 cp index.html s3://$WEBSITE_BUCKET_NAME/
+      - aws s3 cp styles.css s3://$WEBSITE_BUCKET_NAME/
